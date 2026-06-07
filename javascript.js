@@ -1,6 +1,6 @@
 // Function to get computer choice
 function getComputerChoice(bot) {
-    // Use math.floor to randomized result
+    // Use math.random to randomized result
     let bot_choice = Math.floor(Math.random() * bot);
     if (bot_choice === 0) {
         return "rock"
