@@ -1,0 +1,62 @@
+/* Stylesheet for index  */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Center start button and make it slightly push it down  */
+
+#start-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-btn {
+    margin-top: 100px; 
+}
+
+/* game wrapper */
+
+#game-wrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Computer tab and score */
+#computer-tab {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+/* Announcer tab */
+#announcement-tab {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+/* User tab and score */
+#human-tab {
+    text-align: center;
+}
+
+/* Game button */
+#game-container {
+    display: flex;
+    gap: 10vh;
+}
+
+/* Restart button */
+#restart-container {
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

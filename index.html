@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
+    <link rel="stylesheet" href="RPS.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-    <script src="javascript.js"></script>
+
+    <!-- Start Section -->
+
+    <div id="start-container">
+        <button type="button" id="start-btn">Start Game</button>
+    </div>
+    
+    <!-- Game Section -->
+    <div id="game-wrapper">
+        <!-- Winner annoucement -->
+        <h2 id="winner-announcement"></h2>
+
+        <!-- Computer Section -->
+        <div id="computer-tab">
+            <p id="computer-pointer">Computer Score</p>
+            <p id="computer-score">0</p>
+        </div>
+        <!-- Computer choice announcer -->
+        <div id="announcement-tab">
+            <p id="computer-gameChoice">Computer choose <p id="computer-choiceResult">...</p></p>
+        </div>
+
+        <!-- Human Section -->
+        <div id="human-tab">
+            <p id="human-pointer">Your Score</p>
+            <p id="human-score">0</p>
+        </div>
+        
+        <!-- Game Button Section -->
+        <div id="game-container">
+            <button type="button" class="choice-btn" id="rock">Rock</button>
+            <button type="button" class="choice-btn" id="paper">Paper</button>
+            <button type="button" class="choice-btn" id="scissor">Scissor</button>
+        </div>
+    </div>
+
+    <!-- Restart button -->
+     <div id="restart-container">
+        <button type="button" class="restart-btn">restart</button>
+     </div>
+
 </body>
 </html>

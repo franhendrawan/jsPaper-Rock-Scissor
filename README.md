@@ -1,10 +1,11 @@
 # jsPaper-Rock-Scissor
 
-This is a simple rock paper scissor game that run on the console
+This is a simple rock paper scissor game that with an UI and button
 
-For usage:  - inspect the page and go to console to see the process and result 
-              (for best result inspect the page before moving to the deployment page)
-            - You will be immediately prompted (for best result input 'rock' 'paper' or 'scissor')
+22/10/2026 
+Added more functionality: alot of button, restart functionality, winner announcer.
+
+For usage: Click the button and proceed. To restart keep playing until a winner is found
             
 
 This Repo is to complete ODIN Project: Rock Paper Scissor project
